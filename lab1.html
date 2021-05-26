@@ -1,0 +1,38 @@
+ <h1>Registration Form</h1>
+    <FORM METHOD = "POST" ACTION = "form/reg.php">
+   				 <p>User id: 
+    <input name="id" type="number" minlength="5" maxlength="12" required placeholder="Must be of length 5 to 12"></p>
+   				 <p>Password:
+        <input name="pass" type="password" minlength="7" maxlength="12" required placeholder="Must be of length 7 to 12"></p>
+  			         <p>Name:
+        <input name="name" type="text"  required placeholder="Must be alphabets only"></p>
+  			         <p>Address:
+        <input name="add" type="text" placeholder="Optional" ></p>
+   			        <p>Country:
+      <select> 
+        <option value="" disabled selected>(Please select a country)</option>
+          <option value="China">China</option>
+	  <option value="India">India</option>
+          <option value="Singapore">Singapore</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="United States">United States</option>
+      </select></p>
+    <p>Zip code:
+        <input name="zip" type="number" required placeholder="Must be numeric only"></p>
+    <p>Email:
+            <input name="email" type="email" required placeholder="Must be valid email"></p>
+    <p>Sex:
+      
+        <input name="sex" type="radio" value="male" >Male
+      
+        <input name="sex" type="radio" value="female" >Female</p>
+
+    <p>Language:
+        <input name="lang" type="checkbox" value="eng" >English
+        <input name="lang" type="checkbox" value="non eng">Non English</p>
+    <p>About:
+        <textarea name="about" rows="10" cols="35"></textarea></p>
+    <p><input type="submit" value="Submit" style="font-weight: bold;"></p>
+    </form>
+</body>
