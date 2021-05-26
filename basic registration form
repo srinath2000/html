@@ -1,4 +1,8 @@
- <h1>Registration Form</h1>
+//to display a registration form
+
+
+
+<h1>Registration Form</h1>
     <FORM METHOD = "POST" ACTION = "form/reg.php">
    				 <p>User id: 
     <input name="id" type="number" minlength="5" maxlength="12" required placeholder="Must be of length 5 to 12"></p>
